@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Alison</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="header">
+    <img src="header.jpg">
+  </div>
+<body>
+    <h1>Livrarias Alison</h1>
+    <p>Insira o valor da sua compra!</p>
+    <div id="coisinha">
+    <input type="number"  id="valorCompra" placeholder="Insira o valor em R$">
+ <button onclick="calcularDesconto()">Calcular desconto</button>
+ <p>Desconto aplicado: <span id="desconto"></span></p>
+
+<script> 
+function calcularDesconto(){
+const valorCompra = parseFloat (document.getElementById("valorCompra").value)
+
+let desconto = 0
+if (valorCompra > 200) {
+    desconto = 0.2; // 20%
+} else if (valorCompra > 100){
+    desconto = 0.1; // 10% 
+} 
+
+const valorDesconto = valorCompra * desconto;
+document.getElementById('desconto').textContent = `R$ ${valorDesconto.toFixed(2)}`;
+}
+
+</script>
+</div>
+<p id="blibli">Conheça nossa Biblioteca digital:</p>
+
+
+
+<ul class="produtos">
+    <li>
+        <h2>Heartstopper: 2 Garotos, 1 Encontro</h2>
+        <img src="hs.jpg">
+        <p class="produto-descrição">Para você, que busca um bom romance. Mergulhe nessa história</p>
+        <p class="preco-produto">R$69,90 à vista</p>
+    </li>
+
+
+<li>
+    <h2>Vermelho, Branco e Sangue Azul</h2>
+    <img src="vbsa.jpg">
+    <p class="produto-descrição">EUA e Inglaterra, um bom romance com um copo de chá</p>
+    <p class="preco-produto">R$25,90 à vista</p>
+</li>
+
+<li>
+    <h2>PRÉ-VENDA Taylor Swift através das Eras</h2>
+    <img src="TS.jpg">
+    <p class="produto-descrição">A pré venda do livro da maior estrela POP da atualidade</p>
+    <p class="preco-produto">R$145,90 à vista</p>
+</li>
+
+<li>
+    <h2>Enquanto eu não te encontro</h2>
+    <img src="eente.jpg">
+    <p class="produto-descrição">Pedro Rhuas traz uma história sobre amor à primeira vista</p>
+    <p class="preco-produto">R$69,90 à vista</p>
+</li>
+
+<li>
+    <h2>Quinze dias</h2>
+    <img src="15.jpg">
+    <p class="produto-descrição">Todas as questões mal resolvidas que ele tem consigo mesmo.    </p>
+    <p class="preco-produto">R$60,90 à vista</p>
+</li>
+
+<li>
+    <h2>Conectadas</h2>
+    <img src="con.jpg">
+    <p class="produto-descrição">Ser uma garota gamer não é fácil. Principalmente quando um romance está em jogo.</p>
+    <p class="preco-produto">R$69,90 à vista</p>
+</li>
+</ul>
+
+<form>
+    <div id="satis">
+    Defina seu nivel de satisfação:<br>
+</div>
+<div id="satis2">
+    Pouco satisfeito
+    <input type="range" name="satisfação" min="0" max="10">
+    Muito satisfeito
+    </div>
+</form>
+
+<footer>
+  <img id="image" src="logo.jfif" alt="logo branco" style="width: 140px">
+  <p class="copy">&copy; Copyright Alison Bookstore - 2023 </p>
+</footer>
+
+
+
+
+
+
+
+</body>
+</html>

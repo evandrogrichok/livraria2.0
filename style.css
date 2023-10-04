@@ -1,0 +1,173 @@
+.header {
+    padding: 0px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    width: max-content;
+    margin: 0 auto !important; 
+	float: none !important; 
+    box-shadow: 17px 18px 115px 0px rgba(0,0,0,0.75);
+
+    
+  }
+  body{
+    background: #1ABC9C;
+  }
+  h1{
+    color: #F0D001;
+    font-size: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  p{
+    color: #F0D001;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+  }
+
+  #coisinha{
+    text-align: center;
+    box-shadow: 17px 18px 115px 0px rgba(0,0,0,0.75);
+    padding: 20px;
+    max-width: fit-content; 
+	margin: 0 auto !important; 
+	float: none !important; 
+    border-radius: 25px;
+  }
+
+
+
+  #blibli{
+    padding: 99px!important; 
+  }
+
+
+
+
+
+  NAV{
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    color: black;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+h2{
+    font-size: 35px;
+    padding: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+span{
+    color: #3083ff;
+    font-weight: bold;  
+}
+ul, img{
+    border-radius: 20px;
+    max-height:100%; max-width:100%;
+}
+#image{
+    border-radius: 0px;
+}
+.produto-descrição{
+    padding: 12px;
+    font-family: sans-serif;
+}
+
+.preco-produto{
+    font-weight: bold;
+    font-size: 120%;
+    padding: 8px;
+    font-family: sans-serif;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    color: black;
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 30px;    
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+
+}
+.produtos li:hover h2{
+    font-size: 40px;
+}
+
+footer{
+    text-align: center;
+    background: #13274F;
+    padding: 40px 0;
+}
+
+.copy{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+form{
+    color: black;
+    margin: 40px 0;
+    
+}
+#formulario{ 
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+
+
+footer{
+    text-align: center;
+    background: #593D87;
+    padding: 40px 0;
+    margin: 0%;
+}
+
+.copy{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+#satis{
+    text-align: center;
+    color: #F0D001;
+    font-size: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+
+}
+
+#satis2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 59px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder;
+}
